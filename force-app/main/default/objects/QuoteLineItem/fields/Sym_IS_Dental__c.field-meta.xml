@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Sym_IS_Dental__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF( TEXT(Product2.LOB__c) = &quot;Dental&quot;, TRUE, FALSE)</formula>
+    <label>IS_Dental</label>
+    <type>Checkbox</type>
+</CustomField>

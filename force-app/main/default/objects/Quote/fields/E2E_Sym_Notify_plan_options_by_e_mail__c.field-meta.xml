@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>E2E_Sym_Notify_plan_options_by_e_mail__c</fullName>
+    <defaultValue>false</defaultValue>
+    <externalId>false</externalId>
+    <label>Notify plan options by e-mail</label>
+    <type>Checkbox</type>
+</CustomField>

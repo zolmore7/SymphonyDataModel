@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Sym_IsSold__c</fullName>
+    <description>This is used in the display plans lightning web component for the symphony project.</description>
+    <externalId>false</externalId>
+    <formula>if( ISPICKVAL(ProductStage__c, &#39;Sold&#39;), true, false )</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Is Sold</label>
+    <type>Checkbox</type>
+</CustomField>

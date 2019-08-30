@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Sym_Orthodontic_Coverage__c</fullName>
+    <externalId>false</externalId>
+    <label>Orthodontic Coverage</label>
+    <required>false</required>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Not Covered</fullName>
+                <default>false</default>
+                <label>Not Covered</label>
+            </value>
+            <value>
+                <fullName>Child Only</fullName>
+                <default>false</default>
+                <label>Child Only</label>
+            </value>
+            <value>
+                <fullName>Adult &amp; Child</fullName>
+                <default>false</default>
+                <label>Adult &amp; Child</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

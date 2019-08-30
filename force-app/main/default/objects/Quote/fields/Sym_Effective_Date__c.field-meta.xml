@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Sym_Effective_Date__c</fullName>
+    <description>This field reflects the Effective Date and is in place for the E2E POC Project knowns as Symphony</description>
+    <encryptionScheme>None</encryptionScheme>
+    <externalId>false</externalId>
+    <label>Effective Date</label>
+    <required>false</required>
+    <type>Date</type>
+</CustomField>

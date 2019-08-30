@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+    <types>
+        <members>Anthem_API_Settings__c</members>
+        <members>Sym_Message_Bus__e</members>
+        <name>CustomObject</name>
+    </types>
+    <types>
+        <members>QuoteLineItem.Sym_IS_Dental__c</members>
+        <members>QuoteLineItem.Sym_IS_Vision__c</members>
+        <members>QuoteLineItem.Sym_IS_SuppHealth__c</members>
+        <name>CustomField</name>
+    </types>
+</Package>

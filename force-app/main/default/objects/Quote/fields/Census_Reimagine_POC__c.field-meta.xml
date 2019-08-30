@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Census_Reimagine_POC__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <description>E2E Symphony field for POC - lookup from Quote to Census_Reimagine_POC__c</description>
+    <externalId>false</externalId>
+    <label>Census</label>
+    <referenceTo>Sym_Census__c</referenceTo>
+    <relationshipLabel>Quotes</relationshipLabel>
+    <relationshipName>Quotes</relationshipName>
+    <required>false</required>
+    <type>Lookup</type>
+</CustomField>
